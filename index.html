@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary</title>
+
+  <meta name="description" content="Our anniversary celebration in interactive form">
+  <meta name="theme-color" content="#ff2a85">
+  <meta property="og:title" content="Our Anniversary">
+  <meta property="og:description" content="Our love story in moments">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Progress Bar (top) -->
+  <div id="progress-bar"></div>
+  <div id="progress-heart">❤️</div>
+
+  <!-- Moments Counter Badge -->
+  <div id="moments-counter">✨ Moments Unlocked: <span id="moments-count">0</span> / <span id="moments-total">0</span></div>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="hero">
+    <div id="particle-layer-1" class="particle-layer"></div>
+    <div id="particle-layer-2" class="particle-layer"></div>
+    <div id="particle-layer-3" class="particle-layer"></div>
+
+    <div class="hero-content">
+      <h1 id="hero-title" class="fade-in-up"></h1>
+      <p id="hero-subtitle" class="fade-in-up delay-1"></p>
+      <button id="hero-button" class="fade-in-up delay-2"></button>
+    </div>
+
+    <div id="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MEMORIES GALLERY ============ -->
+  <section id="memories">
+    <div class="section-inner">
+      <h2 class="section-title reveal">Our Memories</h2>
+      <div id="memories-container" class="perspective"></div>
+      <p id="memories-hint" class="reveal delay-3">Tap to bring memories to life ✨</p>
+    </div>
+  </section>
+
+  <!-- ============ MILESTONES TIMELINE ============ -->
+  <section id="milestones">
+    <div class="section-inner">
+      <h2 class="section-title reveal">Our Milestones</h2>
+      <div class="timeline-wrap">
+        <div id="timeline-line"></div>
+        <div id="timeline-cards"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROADMAP + LETTER ============ -->
+  <section id="roadmap-letter">
+    <div class="section-inner">
+      <div id="roadmap-block">
+        <h2 class="section-title reveal">Our Journey Ahead</h2>
+        <div id="roadmap-steps"></div>
+      </div>
+
+      <div id="letter-card" class="reveal">
+        <h3 id="letter-opening"></h3>
+        <div id="letter-body"></div>
+        <p id="letter-closing" class="reveal-child"></p>
+        <p id="letter-signature" class="reveal-child"></p>
+        <div id="letter-heart">💖</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <p>Made with 💖 for the one I love</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
